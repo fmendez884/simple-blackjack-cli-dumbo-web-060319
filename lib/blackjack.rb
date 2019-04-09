@@ -25,6 +25,7 @@ end
 def initial_round
 shit = deal_card + deal_card
    return shit
+   puts "#{display_card_total}"
 end
 
 def hit?
