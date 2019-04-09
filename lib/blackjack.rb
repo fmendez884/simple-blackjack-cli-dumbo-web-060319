@@ -24,9 +24,8 @@ end
 
 def initial_round
 shit = deal_card + deal_card
-yikes = display_card_total
    return shit
-   puts "#{yikes}"
+   display_card_total
 end
 
 def hit?
