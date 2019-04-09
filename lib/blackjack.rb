@@ -24,7 +24,6 @@ end
 
 def initial_round
 shit = deal_card + deal_card
-  puts "#{display_card_total}"
    return shit
 end
 
