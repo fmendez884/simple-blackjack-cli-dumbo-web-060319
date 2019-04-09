@@ -18,8 +18,8 @@ def get_user_input
   return gets.chomp
 end
 
-def end_game(g)
-  # code #end_game here
+def end_game(n)
+  puts "Sorry, you hit #{n}. Thanks for playing!"
 end
 
 def initial_round
