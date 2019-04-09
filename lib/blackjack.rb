@@ -19,10 +19,10 @@ def get_user_input
 end
 
 def end_game(n)
-  puts "Sorry, you hit #{n}. Thanks for playing!"
+  puts "Sorry, you hit #{total}. Thanks for playing!"
 end
 
-def initial_round(total)
+def initial_round
 shit = deal_card + deal_card
 yikes = display_card_total
    return shit
