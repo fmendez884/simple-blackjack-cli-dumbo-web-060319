@@ -24,6 +24,7 @@ end
 
 def initial_round
 shit = deal_card + deal_card
+   return shit 
    return display_card_total(shit)
 end
 
