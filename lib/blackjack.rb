@@ -18,7 +18,7 @@ def get_user_input
   return gets.chomp
 end
 
-def end_game
+def end_game(g)
   # code #end_game here
 end
 
