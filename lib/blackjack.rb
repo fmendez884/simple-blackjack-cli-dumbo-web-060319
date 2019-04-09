@@ -28,8 +28,17 @@ sum = deal_card + deal_card
    return sum
 end
 
-def hit?
-  # code hit? here
+def hit?(total)
+  prompt_user
+  get_user_input
+  if get_user_input == 's'
+  elsif get_user_input == 'h' 
+    deal_card
+  else
+    invalid_command
+    prompt_user
+  end
+  return display_card_total
 end
 
 def invalid_command
